@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puzzle Deslizante</title>
+  <style>
+
+
+.container {
+  text-align: center; /* Alinea el contenido al centro */
+}
+
+.puzzle {
+  margin-bottom: 10px; 
+}
+
+.celda {
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  border: 1px solid #000;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 20px ;
+  margin-left: 1%;
+}
+  </style>
+</head>
+<body>
+    <div>
+      <br>
+      <button id="finPuzzle">Resultado</button>
+      <br>
+      <table class="puzzle">
+
+        <tr>
+          <td class="celda" id="celda1"></td>
+          <td class="celda" id="celda2"></td>
+          <td class="celda" id="celda3"></td>
+          <td class="celda" id="celda4"></td>
+        </tr>
+        <tr>
+          <td class="celda" id="celda5"></td>
+          <td class="celda" id="celda6"></td>
+          <td class="celda" id="celda7"></td>
+          <td class="celda" id="celda8"></td>
+        </tr>
+        <tr>
+          <td class="celda" id="celda9"></td>
+          <td class="celda" id="celda10"></td>
+          <td class="celda" id="celda11"></td>
+          <td class="celda" id="celda12"></td>
+        </tr>
+        <tr>
+          <td class="celda" id="celda13"></td>
+          <td class="celda" id="celda14"></td>
+          <td class="celda" id="celda15"></td>
+          <td class="celda" id="celda16"></td>
+        </tr>
+      </table>
+      <button id="desordenarPuzzle">Desordenar Puzzle</button>
+     
+    </div>
+  
+    <script src="Puzzle.js"></script>
+  </body>
+
+  </html>
